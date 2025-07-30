@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             version="2.2">
+  <persistence-unit name="objectdb:db/university.odb">
+    <provider>com.objectdb.jpa.Provider</provider>
+    <class>Person</class>
+    <class>Student</class>
+    <class>Lecturer</class>
+    <class>Department</class>
+    <class>Course</class>
+    <class>Module</class>
+    <class>Passport</class>
+    <class>Address</class>
+  </persistence-unit>
+</persistence>

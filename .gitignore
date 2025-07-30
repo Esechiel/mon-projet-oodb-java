@@ -1,0 +1,54 @@
+# --- Build/Artefacts Java ---
+/target/
+/build/
+/out/
+*.class
+*.log
+
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# --- Maven ---
+.mvn/
+# On garde le wrapper Maven :
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# --- IDE ---
+# IntelliJ IDEA
+.idea/
+*.iml
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- Systèmes ---
+.DS_Store
+Thumbs.db
+
+# --- Données / bases orientées objets (à adapter) ---
+data/
+database/
+*.db
+*.odb
+*.data
+*.mv.db
+*.h2.db
+
+# --- Autres gros fichiers ---
+*.zip
+*.tar
+*.tar.gz
