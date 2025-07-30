@@ -12,4 +12,4 @@ Un projet Java utilisant les bases de données orientées objets.
 	java -cp "bin:lib/*" Main
 ```
 
-###Pour plus de connaissances consuler le rapport du projet
+### Pour plus de connaissances consuler le rapport du projet
